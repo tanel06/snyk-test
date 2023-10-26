@@ -1,5 +1,5 @@
 # Smallest base image
-FROM alpine:3.9
+FROM alpine:3.16.7
 
 # When using Composer, disable the warning about running commands as root/super user
 ENV COMPOSER_ALLOW_SUPERUSER=1
